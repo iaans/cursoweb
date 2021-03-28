@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Jquerys Eventos - mouse</title>
+
+		<!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+
+		$(document).ready( function(){
+			
+			
+			//click
+			//dblclick
+			//mousedown
+			//mouseover
+			//mouseout
+
+			$('#div1').mouseout(function(){
+				alert('Elemento foi clicado')
+
+			});
+
+		
+		
+		}); 
+			
+		</script>
+	</head>
+
+	<body>
+		<div id="div1" style="height: 150px; width: 150px; background:#CCC;">	</div>
+	</body>
+</html>
